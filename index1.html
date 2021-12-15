@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Заголовок</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <script src="script1.js"></script>
+</head>
+<body onload="download()">
+<div class="container">
+    <div class="header">
+        <h1>Учет моих рассходов</h1>
+    </div>
+    <form>
+        <label>
+            <p>Куда было потрачено:</p>
+            <input type="text" id="whereSpend" placeholder="Куда было потрачено:" required style="width: 300px">
+        </label>
+
+        <label>
+            <p>Сколько было потрачено:</p>
+            <input inputmode="decimal" id="howMuchSpend" placeholder="Сколько было потрачено:" required pattern="^[ 0-9]+$" style="width: 200px">
+        </label>
+
+        <button onclick="onClickButton()">Добавить</button>
+    </form>
+
+    <div class="sum">
+        <p>Итого: </p>
+        <div class="count">
+
+        </div>
+        <p>р</p>
+    </div>
+    <div class="items">
+
+    </div>
+    <div class="edit">
+    </div>
+</div>
+
+</body>
+</html>

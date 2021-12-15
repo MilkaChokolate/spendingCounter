@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    background: #d8eced;
+    margin: 0px;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+}
+div {
+    margin-right: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.input-place p{
+    margin-bottom: 5px;
+}
+.raz {
+    -moz-appearance: textfield;
+}
+.raz::-webkit-inner-spin-button {
+    display: none;
+}
+label {
+    display: block;
+}
+button{
+    background: #2d8745;
+    height: 32px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    color: #2d8745;
+    margin-left: 20px;
+}
+.sum {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.edit {
+    display: flex;
+    position: fixed;
+    background: #297e91;
+}
+.edit h1 {
+    margin:6px 0px 12px 6px;
+}
+.edit input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.right {
+    display: flex;
+}
+.left{
+   display: flex;
+}
